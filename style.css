@@ -455,23 +455,14 @@ footer .bottom .links a {
 
     .skills h3,
     .about .right h3,
-    .portfolio .header h3,
-    .feedback h3 {
+    .portfolio .header h3
+    {
         font-size: 32px;
     }
 
     .about .right p {
         font-size: 15px;
     }
-
-    .feedback .customers .item .rating {
-        font-size: 20px;
-    }
-
-    .feedback .customers .item p {
-        font-size: 13px;
-    }
-
     footer .top ul {
         gap: 20px;
     }
@@ -518,16 +509,6 @@ footer .bottom .links a {
     }
 
     .portfolio .portfo-items .item {
-        width: 48%;
-    }
-
-    .feedback .customers {
-        gap: 14px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .feedback .customers .item {
         width: 48%;
     }
 
@@ -644,9 +625,6 @@ footer .bottom .links a {
         width: 80%;
     }
 
-    .feedback .customers .item {
-        width: 100%;
-    }
 
 }
 
@@ -834,6 +812,15 @@ input {
   color: transparent;
   font-weight: 800;
   font-size: 200px;
+}
+.footer-text{
+ background: linear-gradient(to right, #fafa38, #cdc4c4, #2256ff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size:60px ;
 }
 
 @keyframes marquee {
