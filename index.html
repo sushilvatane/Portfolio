@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio | SV </title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+
+
+
+</head>
+
+<body>
+    <div class="card"></div>
+    <div class="body-container">
+        <nav>
+            <div class="logo">
+                <img src="logo.png">
+                <a href="" target="_blank">SushilVatane</a>
+            </div>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+            <button class="contact-btn">Contact Me</button>
+            <button class="dark-mode-toggle">🌝</button>
+            <button id="menuButton" onclick="openMenu()">
+                <i class='bx bx-menu'></i>
+            </button>
+        </nav>
+
+        <div class="main" id="main">
+            <div class="left">
+                <h5>Hey, I am <span>Sushil Vatane</span></h5>
+                <h3>I create <span>Frontend Web</span> With Best User experience</h3>
+                <p>
+                    My journey in web development has equipped me with a strong foundation in designing and implementing
+                    responsive, efficient, and visually appealing web applications.
+                </p>
+                <button id="openFormBtn" popovertarget="contactUsContainer" class="openFormBtn">Let's Do It !</button>
+
+                <div id="contactUsContainer" popover class="contactUsContainer">
+                    <h1>Contact Us </h1>
+                    <input id="input" class="textInput" type="text" placeholder="Enter Ur Name">
+                    <input id="input" type="tel" class="mobInput" placeholder="Enter Ur Mob">
+                    <button id="button" class="subBtn">Submit</button>
+                    <button id="button" class="canBtn">Cancel</button>
+                </div>
+            </div>
+            <!-- <div class="right">
+            <img src="myimg1.png" alt="My Image">
+        </div> -->
+        </div>
+        <div class="container">
+            <div class="marquee">
+                <ul>
+                    <li><span class="text">Get in touch Get in touch</span></li>
+                </ul>
+                <ul aria-hidden="true">
+                    <li>
+                        <span class="text">Get in touch Get in touch</span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="skills" id="skills">
+            <h5>My Skills</h5>
+            <h3>My Expertise</h3>
+            <div class="skill-items">
+                <div class="item item-left">
+                    <div class="icon"><i class='bx bx-directions'></i></div>
+                    <h4>HTML & CSS:</h4>
+                    <p>
+                        Proficient in crafting semantic HTML and modular CSS for clean and maintainable code.
+
+                    </p>
+                </div>
+                <div class="item item-left">
+                    <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                    <h4>JavaScript</h4>
+                    <p>
+                        Skilled in using JavaScript to add interactivity and enhance user experience.
+                    </p>
+                </div>
+                <div class="item item-right">
+                    <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                    <h4>Responsive Design</h4>
+                    <p>
+                        Experienced in creating websites that look great on any device, from desktops to mobile phones.
+                    </p>
+                </div>
+                <div class="item item-right">
+                    <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                    <h4>ReactJS</h4>
+                    <p>
+                        Familiar with ReactJS for building dynamic and interactive user interfaces.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="left item-left">
+                <img src="myimg.png" alt="My Image">
+            </div>
+            <div class="right item-right">
+                <h3>About Me</h3>
+                <p>
+                    Hi, I'm Sushil Vatane, a dedicated frontend developer with a passion for creating intuitive and
+                    dynamic
+                    websites. With 9 months of hands-on experience, I specialize in building user-friendly interfaces
+                    using
+                    HTML, CSS, JavaScript and ReactJS.
+                </p>
+                <p>
+                    I am constantly learning and keeping up with the latest industry trends to refine my skills and stay
+                    ahead in this fast-evolving field.
+                </p>
+            </div>
+        </div>
+        <section class="portfolio-parent">
+            <div class="portfolio" id="portfolio">
+                <div class="header">
+                    <div class="info">
+                        <h5>Recent Projects</h5>
+                        <h3>My Portfolio</h3>
+                    </div>
+                </div>
+
+                <div class="portfo-items">
+                    <div class="item item-left">
+                        <img src="sc-1.png">
+                        <div class="info">
+                            <h4>Vintage Car's</h4>
+                            <p>
+                                A nostalgic hub for enthusiasts to explore classic automobiles and their histories.
+                            </p>
+                            <a href="https://sushilvatane.github.io/sushilvatane/car/index.html" target="_blank"
+                                class="view-btn">View<i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="item item-right">
+                        <img src="text-editor.png">
+                        <div class="info">
+                            <h4>Text-Editor</h4>
+                            <p>
+                                A simple text editor that allows users to create and edit text documents with ease.
+                            </p>
+                            <a href="https://sushilvatane.github.io/my-app" target="_blank">View <i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="item item-left">
+                        <img src="chess-clock.png">
+                        <div class="info">
+                            <h4>Chess Clock</h4>
+                            <p>
+                                A digital chess clock that helps players keep track of their time during matches.
+                            </p>
+                            <a href="https://sushilvatane.github.io/ChessClock">View<i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="item item-right">
+                        <img src="clock.png">
+                        <div class="info">
+                            <h4>simple Clock</h4>
+                            <p>
+                                clock that displays the current time and date in a user-friendly format.
+                            </p>
+                            <a href="https://sushilvatane.github.io/Clock">View<i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="top">
+                <div class="logo">
+                    <img src="logo.png">
+                    <a href="">SushilVatane</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/sushilvatane"><i class='bx bxl-github'></i></a>
+                    <a href="https://instagram.com/speed.exe7"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://Wa.me/+919146253761"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="bottom">
+                
+                <div class="container">
+                    <div>
+                        <ul>
+                            <li><span class="text">You're not stuck. You're just early in the process.</span> <b class="emoji">😊</b></li>
+                        </ul>
+                        </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
