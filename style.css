@@ -833,7 +833,7 @@ input {
   }
 
   .emoji{
-    font-size: 10rem;
+    font-size: 2rem;
     margin-right: 0.5rem;
     animation: bounce 1s infinite alternate;
     display: inline-block;
